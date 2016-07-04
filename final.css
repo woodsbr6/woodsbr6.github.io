@@ -1,0 +1,89 @@
+
+/* Brielle Woods's CSS Document. 
+*/
+
+html {
+
+}
+
+body {
+	width: 761px;
+	margin: 1.5em auto; 
+	border-color: darkblue;
+	border-style: solid;
+	border-width: 10px;
+	padding: 50px;
+	background-color: black;	
+	color: white;
+	text-align: center;
+}
+
+img{
+	display: block;
+    margin-left: auto;
+    margin-right: auto 
+}
+
+
+#nav {
+	list-style-type: none;
+	text-align: center;
+	padding: 15px;
+	border-color: darkblue;
+	border-style: solid;
+	border-width: 5px;
+}
+#nav li{
+	display: inline;
+}
+#nav a{
+	padding: 10px;
+
+
+}
+
+h1 {
+	text-align: center;
+	color: white;
+	font-family: Georgia; 
+}
+
+h2 {
+	color: white;
+	text-align: center;
+	background-color: darkblue;
+}
+
+h3 {
+	color: White;
+	font-family: Lucida Console; 
+	background-color: darkblue;
+}
+
+#footer {
+    padding: 10px;
+    margin-bottom: -5px;
+    font-size: small;
+    color: white;
+    background-color: darkblue;
+    }
+
+/* The code below here alters your links */
+a {
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+	font-weight: bold;
+	text-decoration: underline;
+	color: red;
+}
+
+a:active {
+	color: green;
+}
+a:visited {
+	background-color: yellow;
+}
